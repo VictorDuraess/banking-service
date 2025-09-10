@@ -2,8 +2,6 @@
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
-If you want to learn more about Quarkus, please visit its website: <https://quarkus.io/>.
-
 ## Running the application in dev mode
 
 You can run your application in dev mode that enables live coding using:
@@ -50,15 +48,14 @@ Or, if you don't have GraalVM installed, you can run the native executable build
 
 You can then execute your native executable with: `./target/banking-service-1.0.0-SNAPSHOT-runner`
 
-If you want to learn more about building native executables, please consult <https://quarkus.io/guides/maven-tooling>.
 
 ## Related Guides
 
-- REST ([guide](https://quarkus.io/guides/rest)): A Jakarta REST implementation utilizing build time processing and Vert.x. This extension is not compatible with the quarkus-resteasy extension, or any of the extensions that depend on it.
-- REST Client ([guide](https://quarkus.io/guides/rest-client)): Call REST services
-- OpenTelemetry ([guide](https://quarkus.io/guides/opentelemetry)): Use OpenTelemetry to trace services
-- Hibernate ORM with Panache ([guide](https://quarkus.io/guides/hibernate-orm-panache)): Simplify your persistence code for Hibernate ORM via the active record or the repository pattern
-- JDBC Driver - PostgreSQL ([guide](https://quarkus.io/guides/datasource)): Connect to the PostgreSQL database via JDBC
+- REST:  A Jakarta REST implementation utilizing build time processing and Vert.x. This extension is not compatible with the quarkus-resteasy extension, or any of the extensions that depend on it.
+- REST Client: Call REST services
+- OpenTelemetry: Use OpenTelemetry to trace services
+- Hibernate ORM with Panache: Simplify your persistence code for Hibernate ORM via the active record or the repository pattern
+- JDBC Driver - PostgreSQL: Connect to the PostgreSQL database via JDBC
 
 ## Provided Code
 
@@ -66,19 +63,10 @@ If you want to learn more about building native executables, please consult <htt
 
 Create your first JPA entity
 
-[Related guide section...](https://quarkus.io/guides/hibernate-orm)
-
-[Related Hibernate with Panache section...](https://quarkus.io/guides/hibernate-orm-panache)
-
-
 ### REST Client
 
 Invoke different services through REST with JSON
 
-[Related guide section...](https://quarkus.io/guides/rest-client)
-
 ### REST
 
 Easily start your REST Web Services
-
-[Related guide section...](https://quarkus.io/guides/getting-started-reactive#reactive-jax-rs-resources)
